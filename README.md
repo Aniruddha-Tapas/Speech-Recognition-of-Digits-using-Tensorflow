@@ -18,7 +18,7 @@ Usage
 
 `python demo.py`
 
-* Run the following code in terminal. 
+* Run this code line in terminal. 
 * This downloads the dataset into the 'data' folder and initiates the training process.
 * It will take a couple hours to train fully.
 * You can then test the trained model on your own .wav samples of spoken digits.
