@@ -1,5 +1,6 @@
 """Utilities for downloading and providing data from openslr.org, libriSpeech, Pannous, Gutenberg, WMT, tokenizing, vocabularies."""
 # TODO! see https://github.com/pannous/caffe-speech-recognition for some data sources
+# Migrated to https://github.com/pannous/tensorflow-speech-recognition
 
 import os
 import re
@@ -32,6 +33,8 @@ CHUNK = 4096
 test_fraction=0.1 # 10% of data for test / verification
 
 # http://pannous.net/files/spoken_numbers_pcm.tar
+# or
+# https://github.com/pannous/tensorflow-speech-recognition/blob/master/spoken_numbers_pcm.tar
 class Source:  # labels
   DIGIT_WAVES = 'spoken_numbers_pcm.tar'
   DIGIT_SPECTROS = 'spoken_numbers_spectros_64x64.tar'  # 64x64  baby data set, works astonishingly well
